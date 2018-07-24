@@ -135,7 +135,7 @@ full_model.add(Dense(num_classes, activation='softmax'))
 
 full_model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['accuracy'])
 
-hist = full_model.fit(X_train, y_train,validation_data=(X_test, y_test), epochs=13, batch_size=16)
+hist = full_model.fit(X_train, y_train,validation_data=(X_test, y_test), epochs=20, batch_size=20)
 
 
 #model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
